@@ -1,0 +1,425 @@
+body{
+    height: 2000px;
+}
+
+.top{
+    background: linear-gradient(to bottom right,#123a6f 25%,#2577e4) !important;
+}
+
+.navBar .logo{
+    width: 45%;
+    margin-top: 5px;
+    margin-left: 155px;
+}
+
+.navBar .logo img{
+    width: 180px;
+}
+
+.navBar button{
+    border: 1px solid rgba(255, 255, 255, 0.171) !important;
+    
+}
+
+.navbar button span div{
+    width: 25px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: 6px 0;
+}
+
+.navBar .list li{
+    padding: 0px 10px;
+}
+
+ .navBar .list li a{
+    color: hsla(0,0%,100%,.5) !important; 
+    font-weight: 600;
+    font-size: 17px;
+}
+
+ .navBar .list li a:hover{
+    color: rgba(255, 255, 255, 0.781) !important;
+    
+}
+
+.left-box{
+    width: 55%;
+    padding-left: 165px;
+    margin-right: 45px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-box h1{
+    color: white;
+    font-weight: inherit;   
+}
+
+.left-box p{
+    color: hsla(0,0%,100%,.6);
+    margin-top: 25px;
+    margin-bottom: 1rem; 
+}
+
+.left-box span{
+    color: hsla(0,0%,100%,.6) !important;
+    margin-top: 10px;
+}
+
+.left-box button{
+    color: white;
+    padding: 0.7rem 1.75rem;
+    text-shadow: none;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    max-width: 177px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 25px 0px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.left-box button:hover{
+    background: rgba(255, 255, 255, 0.959);
+    color: #2577e4;
+}
+
+.box{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.right-box{
+    max-width: 50%;
+    margin-top: 68px;
+    overflow: hidden;
+    
+}
+
+.container{
+    max-width: fit-content;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+.main-container{
+    margin-top: 30px;
+    display: flex;
+    max-width: 70%; 
+}
+
+.main-container .sub-container{
+    /* width: 40% !important; */
+    margin: 0px 10px;
+    position: relative;
+    left: 150px;
+}
+
+.main-container .sub-container .link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-header h1{
+    color: #007bff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.date{
+    display: flex;
+}
+
+.date .icon{
+    font-size: 20px;
+}
+
+.date span{
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    color: rgb(107, 107, 107);
+}
+
+.version{
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.mid-section{
+    display: flex;
+}
+
+/* News Section starts */
+
+.news{
+    flex-direction: columns;
+    position: relative;             
+    left: 300px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px;
+    height: 280px;
+}
+
+.news h3{
+    color: red;
+    font-weight: 400;
+}
+
+.news .version-tittle{
+    font-size: 1.2rem;
+    font-weight: 500!important;
+    
+}
+
+.news-content{
+    margin: 20px 0px;
+}
+
+/* News Section ends */
+
+/* More Section starts */
+
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.need{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 40%;
+    padding: 0px 40px;
+}
+
+.need .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+    transition-property: transform;
+    transition: 0.8s;
+}
+
+.need .logo:hover{
+    transform: scale(1.1);
+}
+
+.need h1{
+    color: #009b72;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.need .para-1{
+    text-align: center;
+    color: #6c757d!important;
+    margin: 1rem 0px;
+    font-weight: 500;
+}
+
+.discover h1{
+    color: #0081c8;;
+}
+/* More Section ends */
+
+/* Features Section starts */
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.features .contents{
+    max-width: 30%;
+    padding: 0px 44px;
+}
+
+.features .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.features p{
+    text-align: center;
+    color: #6c757d!important;
+    padding-top: 8px;
+}
+
+.fast{
+    color: #fccf31;
+    
+}
+
+.customizable{
+    color: #0081c8;
+}
+
+.helpful{
+    color: #e91706;
+}
+
+/* Features Section ends */
+
+/* Showcase Section starts */
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 150px;
+}
+
+.showcase span{
+    margin: 20px 0px;
+    color: #6c757d;
+    text-align: center;
+}
+
+.image-cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+}
+
+.showcase .image{
+    padding: 15px 15px;
+}
+
+.showcase .image img{
+    width: 100%;
+    height: 100%;
+    transition-property: transform;
+    transition: 0.8s;
+}
+
+.showcase .image img:hover{
+    transform: scale(1.07);
+}
+
+/* Showcase Section ends */
+
+/* Footer Section starts */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 18, 37);
+}
+
+.footer .text{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 10px 0px;
+}
+
+/* Footer Section ends */
+
+@media only screen and (max-width: 990px){
+    .navBar .logo{
+        width: 45%;
+        margin-left: 0px;
+    }
+
+    .left-box{
+        width: 100%;
+        padding-left: 0px;
+        text-align: justify;
+    }
+
+    .left-box h1{
+        font-size: 26px;
+    }
+
+    .right-box{
+        display: none;
+    }
+
+    .box{
+        margin-left: 10px;
+    }
+
+    .main-container{
+        flex-direction: column;
+        max-width: 100%;     
+    }
+
+    .main-container .sub-container{
+        width: 100% !important;
+        left: 0px;
+        margin: 0px;
+        padding: 0px; 
+    }
+
+    .mid-section{
+        flex-direction: column;
+        
+    }
+
+    .news{
+        width: 100% !important;
+        left: 0px;       
+    }
+
+    .news-content{
+        width: 100%;
+    }
+
+    .mid-section{
+        padding: 10px 10px;
+    }
+
+    .more{
+        flex-direction: column;
+    }
+
+    .need{
+        max-width: 100%;
+    }
+
+    .features{
+        flex-direction: column;
+    }
+
+    .features .contents{
+        max-width: 100%;
+        margin-bottom: 20px;
+       
+    }
+
+    .image-cont{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .showcase{
+        margin: 0px 10px;
+    }
+
+    
+
+    
+}
